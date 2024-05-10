@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/productListFragment">
+
+    <activity
+        android:id="@+id/authActivity"
+        android:name="com.univer.onlinestore.ui.login.AuthActivity"
+        android:label="activity_auth"
+        tools:layout="@layout/activity_auth">
+    </activity>
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.univer.onlinestore.ui.product.list.ProductListFragment"
+        android:label="fragment_product_list"
+        tools:layout="@layout/fragment_product_list" >
+        <action
+            android:id="@+id/action_productListFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+        <action
+            android:id="@+id/action_productListFragment_to_CartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.univer.onlinestore.ui.product.detail.ProductDetailFragment"
+        android:label="ProductDetailFragment"
+        tools:layout="@layout/fragment_product_detail">
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.univer.onlinestore.ui.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+
+</navigation>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OnlineStoreDemo</string>
+    <string name="title_activity_auth">authActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="products">Products</string>
+    <string name="cart">Cart</string>
+    <string name="add_product">Add product</string>
+    <string name="product_name">Name</string>
+    <string name="product_description">Description</string>
+    <string name="product_price">Price</string>
+    <string name="product_category">Category</string>
+    <string name="save_product">Save</string>
+    <string name="product_currency">Currency</string>
+    <string name="open_dialog">Open Dialog</string>
+    <string name="show_profile">Show profile</string>
+    <string name="min_price">Min price</string>
+    <string name="max_price">Max price</string>
+    <string name="apply_filters">APPLY</string>
+    <string name="clear_filters">CLEAR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_implemented_yet">Not implemented yet</string>
+</resources>
